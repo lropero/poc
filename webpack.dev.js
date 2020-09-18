@@ -31,8 +31,7 @@ module.exports = merge(common, {
   plugins: [
     new HtmlWebpackPlugin({
       templateParameters: {
-        description: 'DESCRIPTION',
-        title: 'DEV#POC'
+        title: 'DEV#Poc'
       }
     })
   ]
